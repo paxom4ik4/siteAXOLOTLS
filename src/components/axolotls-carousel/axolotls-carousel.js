@@ -36,6 +36,10 @@ export const AxolotlsCarousel = () => {
   return (
     <div className={DEFAULT_CLASSNAME}>
       <div className={`${DEFAULT_CLASSNAME}_wrapper`}>
+        <div className={`${DEFAULT_CLASSNAME}_header`}>
+          <div className={`${DEFAULT_CLASSNAME}_view-btn`}>{'View on Opensea'}</div>
+          <div className={`${DEFAULT_CLASSNAME}_title`}>{"Take your own Axolotl"}</div>
+        </div>
         <Carousel arrows={false} keyBoardControl={false} showDots={false} autoPlay={true} infinite={true} autoPlaySpeed={2000} responsive={responsive} className={`${DEFAULT_CLASSNAME}_carousel`}>
           <div className={`${DEFAULT_CLASSNAME}_content-item`}>
             <img src={axolotl1} />

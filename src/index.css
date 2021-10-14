@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;700&display=swap');
+
 body {
+  font-family: 'Andada Pro', serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;

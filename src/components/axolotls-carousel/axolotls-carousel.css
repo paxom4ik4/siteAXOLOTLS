@@ -1,6 +1,6 @@
 .axolotls-carousel {
   background: #e2e2e2;
-  padding-top: 60px;
+  padding-top: 80px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -8,6 +8,42 @@
 
 .axolotls-carousel_wrapper {
   width: 1200px;
+}
+
+.axolotls-carousel_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.axolotls-carousel_view-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #ab9ad5;
+  font-size: 16px;
+}
+
+.axolotls-carousel_view-btn:hover {
+  cursor: pointer;
+  opacity: .9;
+  transition: .3s;
+}
+
+.axolotls-carousel_view-btn:active {
+  opacity: .8;
+}
+
+.axolotls-carousel_title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  color: #9d82d7;
 }
 
 .axolotls-carousel_carousel div {
@@ -25,6 +61,6 @@
   border-radius: 3px;
   height: 280px;
   width: 280px;
-  margin-left: 220px;
+  margin-left: 180px;
   padding: 24px;
 }
