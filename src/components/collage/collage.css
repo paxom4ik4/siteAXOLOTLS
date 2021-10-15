@@ -1,0 +1,21 @@
+.collage {
+  padding-top: 80px;
+  width: 100%;
+}
+
+.collage_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.collage_wrapper div {
+  width: 10%;
+  height: 152px;
+  z-index: 5;
+}
+
+.collage_wrapper div img {
+  width: 100%
+}

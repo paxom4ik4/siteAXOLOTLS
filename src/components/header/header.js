@@ -4,6 +4,8 @@ import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 import './header.css'
 
+import Logo from '../../assets/Logo.PNG';
+
 const DEFAULT_CLASSNAME = 'header';
 
 const twitterIcon = <FontAwesomeIcon icon={faTwitter} />;
@@ -31,7 +33,8 @@ export const Header = () => {
     <div className={scrollY > 100 ? `${DEFAULT_CLASSNAME}-small` : DEFAULT_CLASSNAME}>
       <div className={`${DEFAULT_CLASSNAME}_wrapper`}>
         <div className={`${DEFAULT_CLASSNAME}_logo`}>
-          {'Winged Axolotls'}
+          <img src={Logo} alt={'Logo'} />
+          <span>{'Winged Axolotls'}</span>
         </div>
         <div className={scrollY > 100 ? `${DEFAULT_CLASSNAME}-small_links` : `${DEFAULT_CLASSNAME}_links`}>
           <div className={`${DEFAULT_CLASSNAME}_links-link`}>{twitterIcon}</div>

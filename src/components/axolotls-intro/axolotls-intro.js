@@ -22,6 +22,7 @@ export const AxolotlsIntro = () => {
   return (
     <div className={DEFAULT_CLASSNAME}>
       <div className={`${DEFAULT_CLASSNAME}_wrapper`}>
+        <span className={`${DEFAULT_CLASSNAME}_title`}>{"Unreal Mystical Axolotls From Netherlands Included In Our NFT Collection"}</span>
         <div className={`${DEFAULT_CLASSNAME}_axolotls-item`} onMouseOut={() => setShowView1(false)} onMouseOver={() => setShowView1(true)}>
           <div className={`${DEFAULT_CLASSNAME}_axolotls-item-filter`} />
           <div className={showView1 ? `${DEFAULT_CLASSNAME}_axolotls-item_view-btn` : `${DEFAULT_CLASSNAME}_axolotls-item_view-btn-hidden`}>

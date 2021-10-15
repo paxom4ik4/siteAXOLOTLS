@@ -1,4 +1,5 @@
 .axolotls-intro {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -16,6 +17,16 @@
   }
 }
 
+.axolotls-intro_title {
+  width: fit-content;
+  font-size: 28px;
+  font-weight: 700;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
 .axolotls-intro_axolotls-item_view-btn {
   color: #ffffff;
   cursor: pointer;
@@ -30,7 +41,7 @@
   z-index: 10;
   animation: viewBtn 0.25s;
   transition: .25s;
-  background-color: #ab9ad5;
+  background-color: #110f2d;
   backdrop-filter: none;
 }
 
@@ -80,7 +91,7 @@
   height: 90px;
   color: #ffffff;
   font-weight: 700;
-  background-color: #ab9ad5;
+  background-color: #110f2d;
   font-size: 24px;
   margin-top: 240px;
 }
