@@ -22,25 +22,25 @@ export const AxolotlsIntro = () => {
   return (
     <div className={DEFAULT_CLASSNAME}>
       <div className={`${DEFAULT_CLASSNAME}_wrapper`}>
-        <span className={`${DEFAULT_CLASSNAME}_title`}>{"Unreal Mystical Axolotls From Netherlands Included In Our NFT Collection"}</span>
+        <span className={`${DEFAULT_CLASSNAME}_title`}>{"Unreal Mystical Axolotls Divided into 6 Classes Included In Our NFT Collection"}</span>
         <div className={`${DEFAULT_CLASSNAME}_axolotls-item`} onMouseOut={() => setShowView1(false)} onMouseOver={() => setShowView1(true)}>
           <div className={`${DEFAULT_CLASSNAME}_axolotls-item-filter`} />
           <div className={showView1 ? `${DEFAULT_CLASSNAME}_axolotls-item_view-btn` : `${DEFAULT_CLASSNAME}_axolotls-item_view-btn-hidden`}>
-            {'View on Opensea'}
+            {'Angel'}
           </div>
           <img src={axolotl1} alt={'axolotl'} />
         </div>
         <div className={`${DEFAULT_CLASSNAME}_axolotls-item`} onMouseOut={() => setShowView2(false)} onMouseOver={() => setShowView2(true)}>
           <div className={`${DEFAULT_CLASSNAME}_axolotls-item-filter`} />
           <div className={showView2 ? `${DEFAULT_CLASSNAME}_axolotls-item_view-btn` : `${DEFAULT_CLASSNAME}_axolotls-item_view-btn-hidden`}>
-            {'View on Opensea'}
+            {'Demon'}
           </div>
           <img src={axolotl2} alt={'axolotl'} />
         </div>
         <div className={`${DEFAULT_CLASSNAME}_axolotls-item`} onMouseOut={() => setShowView3(false)} onMouseOver={() => setShowView3(true)}>
           <div className={`${DEFAULT_CLASSNAME}_axolotls-item-filter`} />
           <div className={showView3 ? `${DEFAULT_CLASSNAME}_axolotls-item_view-btn` : `${DEFAULT_CLASSNAME}_axolotls-item_view-btn-hidden`}>
-            {'View on Opensea'}
+            {'Draconid'}
           </div>
           <img src={axolotl3} alt={'axolotl'} />
 
@@ -48,21 +48,21 @@ export const AxolotlsIntro = () => {
         <div className={`${DEFAULT_CLASSNAME}_axolotls-item`} onMouseOut={() => setShowView4(false)} onMouseOver={() => setShowView4(true)}>
           <div className={`${DEFAULT_CLASSNAME}_axolotls-item-filter`} />
           <div className={showView4 ? `${DEFAULT_CLASSNAME}_axolotls-item_view-btn` : `${DEFAULT_CLASSNAME}_axolotls-item_view-btn-hidden`}>
-            {'View on Opensea'}
+            {'Axo Butterfly'}
           </div>
           <img src={axolotl4} alt={'axolotl'} />
         </div>
         <div className={`${DEFAULT_CLASSNAME}_axolotls-item`} onMouseOut={() => setShowView5(false)} onMouseOver={() => setShowView5(true)}>
           <div className={`${DEFAULT_CLASSNAME}_axolotls-item-filter`} />
           <div className={showView5 ? `${DEFAULT_CLASSNAME}_axolotls-item_view-btn` : `${DEFAULT_CLASSNAME}_axolotls-item_view-btn-hidden`}>
-            {'View on Opensea'}
+            {'Axo Dragonfly'}
           </div>
           <img src={axolotl5} alt={'axolotl'} />
         </div>
         <div className={`${DEFAULT_CLASSNAME}_axolotls-item`} onMouseOut={() => setShowView6(false)} onMouseOver={() => setShowView6(true)}>
           <div className={`${DEFAULT_CLASSNAME}_axolotls-item-filter`} />
           <div className={showView6 ? `${DEFAULT_CLASSNAME}_axolotls-item_view-btn` : `${DEFAULT_CLASSNAME}_axolotls-item_view-btn-hidden`}>
-            {'View on Opensea'}
+            {'Supreme Angel'}
           </div>
           <img src={axolotl6} alt={'axolotl'} />
         </div>

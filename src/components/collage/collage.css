@@ -1,6 +1,7 @@
 .collage {
   padding-top: 80px;
   width: 100%;
+  position: relative;
 }
 
 .collage_wrapper {
@@ -11,11 +12,62 @@
 }
 
 .collage_wrapper div {
-  width: 10%;
-  height: 152px;
+  width: 5%;
+  height: 76px;
   z-index: 5;
 }
 
 .collage_wrapper div img {
   width: 100%
+}
+
+.collage_filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: brightness(50%);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.collage_timer {
+  color: #ffffff;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-container span:nth-child(2) {
+  font-size: 24px;
+}
+
+.nft-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nft-buttons div {
+  border-radius: 3px;
+  width: 40%;
+  border: 1px solid #ffffff;
+  padding: 10px 8px;
+  font-weight: 700;
+  transition: .25s;
+}
+
+.nft-buttons div:hover {
+  cursor: pointer;
+  transition: .3s;
+  background-color: #020336;
+}
+
+.nft-buttons div:active {
+  opacity: 0.85;
 }

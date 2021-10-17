@@ -4,11 +4,11 @@ import {AxolotlsIntro} from "./components/axolotls-intro/axolotls-intro";
 import {AxolotlsAmount} from "./components/axolotls-amount/axolotls-amount";
 import {AxolotlsCarousel} from "./components/axolotls-carousel/axolotls-carousel";
 
-import pageAxolotl from './assets/page-axolotl.png';
-
 import './App.css';
 import { Collage } from "./components/collage/collage";
 import { Roadmap } from "./components/roadmap/roadmap";
+import { Community } from "./components/join-community/join-community";
+import { Footer } from "./components/footer/footer";
 
 export const App = () => {
   return (
@@ -19,7 +19,8 @@ export const App = () => {
       <AxolotlsAmount />
       <AxolotlsCarousel />
       <Roadmap />
-      <div className={'page-axolotl'}><img src={pageAxolotl} /></div>
+      <Community />
+      <Footer />
     </div>
   )
 }
