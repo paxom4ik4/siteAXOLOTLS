@@ -38,8 +38,8 @@ export const Header = () => {
           <span>{'Winged Axolotls'}</span>
         </div>
         <div className={scrollY > 100 ? `${DEFAULT_CLASSNAME}-small_links` : `${DEFAULT_CLASSNAME}_links`}>
-          <div className={`${DEFAULT_CLASSNAME}_links-link`}>{twitterIcon}</div>
-          <div className={`${DEFAULT_CLASSNAME}_links-link`}>{discordIcon}</div>
+          <a target={'_blank'} href={'https://twitter.com/wingedaxolotls'}><div className={`${DEFAULT_CLASSNAME}_links-link`}>{twitterIcon}</div></a>
+          <a target={'_blank'} href={'https://discord.com/invite/YM3RKA3z'}><div className={`${DEFAULT_CLASSNAME}_links-link`}>{discordIcon}</div></a>
           <div className={`${DEFAULT_CLASSNAME}_links_connect-wallet`}>{'See Lore'}</div>
         </div>
       </div>

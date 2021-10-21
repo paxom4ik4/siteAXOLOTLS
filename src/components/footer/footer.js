@@ -31,8 +31,8 @@ export const Footer = () => {
           <span>{'Terms & Conditions'}</span>
           <span>{'Smart Contract'}</span>
           <div className={`${DEFAULT_CLASSNAME}_links`}>
-            <div className={`header_links-link`}>{twitterIcon}</div>
-            <div className={`header_links-link`}>{discordIcon}</div>
+            <a target={'_blank'} href={'https://twitter.com/wingedaxolotls'}><div className={'header_links-link'}>{twitterIcon}</div></a>
+            <a target={'_blank'} href={'https://discord.com/invite/YM3RKA3z'}><div className={'header_links-link'}>{discordIcon}</div></a>
             <div className={`header_links_connect-wallet`}>{'See Lore'}</div>
             <img src={OpenSeaLogo} alt={'opensea'} />
           </div>

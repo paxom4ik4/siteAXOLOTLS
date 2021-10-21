@@ -10,39 +10,32 @@ export const Roadmap = () => {
       <div className={`${DEFAULT_CLASSNAME}_wrapper`}>
         <div className={`${DEFAULT_CLASSNAME}_wrapper-progress-line`} />
         <div className={`${DEFAULT_CLASSNAME}_item`}>
-          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Launch Roadmap'}</span>
+          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Current project'}</span>
           <div className={`${DEFAULT_CLASSNAME}_item-text`}>
-            {'Quality comes first. The goal is to make our first drop as cool as possible so we can have freedom to develop the universe. We\'re still working on a number of rarity criteria, as well as a lot of new Lore concepts. The drop release date will be announced as soon as the project\'s quality and technical aspects are fully progressed. We also need to work hard with our community to make Discord and Twitter even cooler with new additions throughout time.'}
+            {'Currently, we are working on raising the quality of our first collection. We have already gone through a lot of iterations but we want to achieve quality standards that are undoubted can be named as one of the best in the NFT community. We are also working on expanding our community by marketing and improving social media presence as well as content quality. The drop release date will be announced as soon as we will be satisfied with the level of product.'}
           </div>
-          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>1</div>
+          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.01</div>
         </div>
         <div className={`${DEFAULT_CLASSNAME}_item`}>
-          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Physical Part'}</span>
+          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'IRL Part'}</span>
           <div className={`${DEFAULT_CLASSNAME}_item-text`}>
-            {'Mekas have a huge potential as physical creations. We are passionate about 3D printing and want to bring our concept to life with high-quality materials. After several talks with famous art toys makers, we are currently working on some concepts but wait, let’s keep a little mystery for the moment! We also aim to create clothing and merchandise using high-quality materials and textiles with eco-friendly fabrics. Also, Matt. B would love to explore a new and ambitious 3D Art Direction about streetwear and fashion in general. By following our design principles, we will do everything possible to create something amazing before, during, and after the launch of the first Drop!'}
+            {'We want our creation to be present not only in the digital world but also to be physically present around our clients. We will achieve such a tusk by introducing 3D models and maybe even toys. Also, merchandise will be created as a part of our project of giving value back to our holders.'}
           </div>
-          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>2</div>
+          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.02</div>
         </div>
         <div className={`${DEFAULT_CLASSNAME}_item`}>
-          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Axolotls x Artists'}</span>
+          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Giving the love back'}</span>
           <div className={`${DEFAULT_CLASSNAME}_item-text`}>
-            {'We know a lot of artists in the NFT community and beyond! We\'d like to develop a series in which each Meka is made in collaboration with artists we like and under their artistic direction. We would create a small collection of 1/1 unique Mekas by artists, with all proceeds going to them! This collection is incredibly important to us, and we are excited to see what we can accomplish together!'}
+            {'Becouse of you we can make our projects and develop our universe! So we want to return some love to you! First of all there will be drops for holder of a special collection (Baby Axolotls), also there will be give away for holders which contains our merch, as well as white priority list for our next collection.'}
           </div>
-          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>3</div>
+          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.03</div>
         </div>
         <div className={`${DEFAULT_CLASSNAME}_item`}>
-          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Axolotls Multiverse'}</span>
+          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Expand and progress'}</span>
           <div className={`${DEFAULT_CLASSNAME}_item-text`}>
-            {'After presenting our original Mekas, we want to explore more abstract subjects in order to present a second, very distinct drop. Our aim is simply to aesthetically enlarge the universe, and each relationship between the Meka Dimensions will be described and explained. We truly want to blend artistic disciplines, as well as move beyond our graphic style and look outside our comfort zone. We also want to see if it would be possible to collaborate with famous mecha licenses on future releases. That would be incredible!'}
+            {'We don’t want our univers to be a place only fo one collection. For this goal to be achieved we will expand it and add lore to all the details. And then we will develop it with breeding activity for axolotls and subsequent collection fitting in our world. We will take any opprtiunity to make it the most complex and interesting universe from all of the NFT. We also seeking to engage with different artist for cross-world integrations.'}
           </div>
-          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>4</div>
-        </div>
-        <div className={`${DEFAULT_CLASSNAME}_item`}>
-          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Future of Axolotls'}</span>
-          <div className={`${DEFAULT_CLASSNAME}_item-text`}>
-            {'When all of these stages are completed, we’ll take care of maintaining the Meka Universe. We both come from the design industry, and we are truly passionate about Art, Short films, Physical and Digital Exploration, and we would like to explore even more, with the desire to always make events more impressive and ambitious. We are counting on your support! We look forward to seeing what happens in the future! Love from Mekas ♥'}
-          </div>
-          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>5</div>
+          <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.04</div>
         </div>
       </div>
     </div>

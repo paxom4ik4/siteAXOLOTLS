@@ -45,10 +45,10 @@
 .roadmap_item-stage {
   position: absolute;
   z-index: 15;
-  top: 32px;
+  top: 24px;
   left: 58px;
   border: 1px solid #ffffff;
-  padding: 9px 16px;
+  padding: 16px 16px;
   border-radius: 50%;
 }
 
