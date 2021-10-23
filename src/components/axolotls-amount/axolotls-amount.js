@@ -11,8 +11,7 @@ export const AxolotlsAmount = () => {
       <div className={`${DEFAULT_CLASSNAME}_wrapper`}>
         <div className={`${DEFAULT_CLASSNAME}_text`}>
           <div>{'1,000 unique Axolotls'}</div>
-          <div>{'The Winged Axolotls is a collection of 1,000 generative items with hundreds of elements inspired by the SeaWorld Universe.'}</div>
-          <div>{'Each artwork is original, with its own color palette and creation. The objective was to make each item unique in order to prioritize quality above quantity.'}</div>
+          <div>{'The Winged Axolotls is a NFT collection of 3333 unique Axolotls inspired by our Axoverse. Each axolotl has its own unique trait, and also belongs to one of 6 classes.'}</div>
         </div>
         <div className={`${DEFAULT_CLASSNAME}_gif`}>
           <img src={axolotlGif} alt={'axolotls-gif'} />

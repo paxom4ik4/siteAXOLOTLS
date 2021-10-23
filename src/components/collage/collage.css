@@ -17,7 +17,7 @@
   z-index: 5;
 }
 
-.collage_wrapper div img {
+.collage_wrapper img {
   width: 100%
 }
 
@@ -32,6 +32,13 @@
   width: 100%;
   height: 100%;
   z-index: 10;
+}
+
+.collage_filter div {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 64px;
+  padding-top: 74px;
 }
 
 .collage_timer {
@@ -70,4 +77,16 @@
 
 .nft-buttons div:active {
   opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .collage_filter div {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 425px) {
+  .collage_filter div {
+    font-size: 28px;
+  }
 }

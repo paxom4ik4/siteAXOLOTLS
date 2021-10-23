@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import './axolotls-intro.css';
 
 import axolotl1 from '../../assets/axolotl1.jpg';
-import axolotl2 from '../../assets/axolotl2.jpg';
-import axolotl3 from '../../assets/axolotl3.jpg';
-import axolotl4 from '../../assets/axolotl4.jpg';
-import axolotl5 from '../../assets/axolotl5.jpg';
-import axolotl6 from '../../assets/axolotl6.jpg';
+import axolotl2 from '../../assets/demon.jpg';
+import axolotl3 from '../../assets/drakonid.jpg';
+import axolotl4 from '../../assets/axo-but.jpg';
+import axolotl5 from '../../assets/dragonfly.jpg';
+import axolotl6 from '../../assets/arch.jpg';
 
 const DEFAULT_CLASSNAME = 'axolotls-intro';
 

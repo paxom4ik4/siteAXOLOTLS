@@ -56,7 +56,8 @@
 }
 
 .header_links, .header-small_links {
-  width: 190px;
+  cursor: pointer;
+  width: 260px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -131,4 +132,30 @@
 
 .header_links div:active {
   opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .header_logo {
+    width: auto;
+  }
+  .header_logo span {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .header_wrapper {
+    padding: 8px;
+  }
+  .header_logo img {
+    width: 64px;
+  }
+  .header_links, .header-small_links {
+    width: 230px;
+  }
+
+  .header_links-link {
+    width: 32px;
+    height: 32px;
+  }
 }

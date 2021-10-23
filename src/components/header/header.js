@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import './header.css'
 
 import Logo from '../../assets/Logo.PNG';
-import OpenSeaLogo from '../../assets/OpenSea.svg';
 
 const DEFAULT_CLASSNAME = 'header';
 
@@ -38,9 +39,25 @@ export const Header = () => {
           <span>{'Winged Axolotls'}</span>
         </div>
         <div className={scrollY > 100 ? `${DEFAULT_CLASSNAME}-small_links` : `${DEFAULT_CLASSNAME}_links`}>
+          <div style={{color: '#fff'}}>{'Lore'}</div>
+          <Link
+            activeClass="active"
+            to="roadmap"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            duration={500}
+            style={{color: '#fff'}}>{'Roadmap'}</Link>
+          <Link
+            activeClass="active"
+            to="faq"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            duration={500}
+            style={{color: '#fff'}}>{'FAQ'}</Link>
           <a target={'_blank'} href={'https://twitter.com/wingedaxolotls'}><div className={`${DEFAULT_CLASSNAME}_links-link`}>{twitterIcon}</div></a>
           <a target={'_blank'} href={'https://discord.com/invite/YM3RKA3z'}><div className={`${DEFAULT_CLASSNAME}_links-link`}>{discordIcon}</div></a>
-          <div className={`${DEFAULT_CLASSNAME}_links_connect-wallet`}>{'See Lore'}</div>
         </div>
       </div>
     </div>

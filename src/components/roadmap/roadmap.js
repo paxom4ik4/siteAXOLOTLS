@@ -6,7 +6,7 @@ const DEFAULT_CLASSNAME = 'roadmap';
 
 export const Roadmap = () => {
   return (
-    <div className={DEFAULT_CLASSNAME}>
+    <div className={DEFAULT_CLASSNAME} id={DEFAULT_CLASSNAME}>
       <div className={`${DEFAULT_CLASSNAME}_wrapper`}>
         <div className={`${DEFAULT_CLASSNAME}_wrapper-progress-line`} />
         <div className={`${DEFAULT_CLASSNAME}_item`}>
@@ -17,9 +17,9 @@ export const Roadmap = () => {
           <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.01</div>
         </div>
         <div className={`${DEFAULT_CLASSNAME}_item`}>
-          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'IRL Part'}</span>
+          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Expand and progress'}</span>
           <div className={`${DEFAULT_CLASSNAME}_item-text`}>
-            {'We want our creation to be present not only in the digital world but also to be physically present around our clients. We will achieve such a tusk by introducing 3D models and maybe even toys. Also, merchandise will be created as a part of our project of giving value back to our holders.'}
+            {'We don’t want our univers to be a place only fo one collection. For this goal to be achieved we will expand it and add lore to all the details. And then we will develop it with breeding activity for axolotls and subsequent collection fitting in our world. We will take any opprtiunity to make it the most complex and interesting universe from all of the NFT. We also seeking to engage with different artist for cross-world integrations.'}
           </div>
           <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.02</div>
         </div>
@@ -31,9 +31,9 @@ export const Roadmap = () => {
           <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.03</div>
         </div>
         <div className={`${DEFAULT_CLASSNAME}_item`}>
-          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'Expand and progress'}</span>
+          <span className={`${DEFAULT_CLASSNAME}_item-title`}>{'IRL Part'}</span>
           <div className={`${DEFAULT_CLASSNAME}_item-text`}>
-            {'We don’t want our univers to be a place only fo one collection. For this goal to be achieved we will expand it and add lore to all the details. And then we will develop it with breeding activity for axolotls and subsequent collection fitting in our world. We will take any opprtiunity to make it the most complex and interesting universe from all of the NFT. We also seeking to engage with different artist for cross-world integrations.'}
+            {'We want our creation to be present not only in the digital world but also to be physically present around our clients. We will achieve such a tusk by introducing 3D models and maybe even toys. Also, merchandise will be created as a part of our project of giving value back to our holders.'}
           </div>
           <div className={`${DEFAULT_CLASSNAME}_item-stage`}>.04</div>
         </div>

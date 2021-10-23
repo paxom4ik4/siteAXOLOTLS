@@ -33,7 +33,6 @@
   height: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-end;
   width: 55%;
 }
@@ -42,4 +41,34 @@
   font-size: 40px;
   font-weight: 700;
   color: #110f2d;
+}
+
+.axolotls-amount_text div:last-child {
+  padding-top: 24px;
+}
+
+@media (max-width: 800px) {
+  .axolotls-amount_wrapper {
+    flex-direction: column;
+  }
+  .axolotls-amount_gif {
+    width: 50%;
+    padding-top: 16px;
+  }
+}
+
+@media (max-width: 430px) {
+  .axolotls-amount {
+    padding-top: 20px;
+  }
+  .axolotls-amount_wrapper {
+    flex-direction: column;
+  }
+  .axolotls-amount_text {
+    width: 100%;
+  }
+  .axolotls-amount_gif {
+    width: 100%;
+    padding-top: 24px;
+  }
 }

@@ -65,3 +65,41 @@
   margin-left: 180px;
   padding: 24px;
 }
+
+@media (max-width: 1220px) {
+  .axolotls-carousel_wrapper {
+    width: 100%;
+  }
+  .axolotls-carousel {
+    box-sizing: border-box;
+    padding: 80px 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .axolotls-carousel {
+    box-sizing: border-box;
+    padding: 40px 20px 0;;
+  }
+  .axolotls-carousel_header {
+    justify-content: center;
+  }
+  .axolotls-carousel_view-btn {
+    display: none;
+  }
+  .axolotls-carousel_content-item img {
+    margin-left: 220px;
+  }
+}
+
+@media (max-width: 376px) {
+  .axolotls-carousel_content-item img {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 320px) {
+  .axolotls-carousel_content-item img {
+    margin-left: 140px;
+  }
+}

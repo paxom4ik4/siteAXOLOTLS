@@ -1,14 +1,16 @@
 import React from "react";
-import { Header } from "./components/header/header";
-import {AxolotlsIntro} from "./components/axolotls-intro/axolotls-intro";
-import {AxolotlsAmount} from "./components/axolotls-amount/axolotls-amount";
-import {AxolotlsCarousel} from "./components/axolotls-carousel/axolotls-carousel";
 
 import './App.css';
+
+import { Header } from "./components/header/header";
+import { AxolotlsIntro } from "./components/axolotls-intro/axolotls-intro";
+import { AxolotlsAmount } from "./components/axolotls-amount/axolotls-amount";
+import { AxolotlsCarousel } from "./components/axolotls-carousel/axolotls-carousel";
 import { Collage } from "./components/collage/collage";
 import { Roadmap } from "./components/roadmap/roadmap";
 import { Community } from "./components/join-community/join-community";
 import { Footer } from "./components/footer/footer";
+import { FAQ } from "./components/faq/faq";
 
 export const App = () => {
   return (
@@ -20,6 +22,7 @@ export const App = () => {
       <AxolotlsCarousel />
       <Roadmap />
       <Community />
+      <FAQ />
       <Footer />
     </div>
   )
