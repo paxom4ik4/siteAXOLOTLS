@@ -7,6 +7,8 @@
 }
 
 .axolotls-carousel_wrapper {
+  display: flex;
+  flex-direction: column;
   width: 1200px;
 }
 
@@ -46,23 +48,25 @@
   color: #020336;
 }
 
+.axolotls-carousel_carousel {
+  display: flex;
+  align-self: center;
+  width: 50%;
+}
+
 .axolotls-carousel_carousel div {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%
+  width: 100%
 }
 
 .axolotls-carousel_content-item {
   border-radius: 3px;
-  width: 300px;
 }
 
 .axolotls-carousel_content-item img {
   border-radius: 3px;
-  height: 280px;
-  width: 280px;
-  margin-left: 180px;
   padding: 24px;
 }
 
@@ -87,19 +91,7 @@
   .axolotls-carousel_view-btn {
     display: none;
   }
-  .axolotls-carousel_content-item img {
-    margin-left: 220px;
-  }
-}
-
-@media (max-width: 376px) {
-  .axolotls-carousel_content-item img {
-    margin-left: 170px;
-  }
-}
-
-@media (max-width: 320px) {
-  .axolotls-carousel_content-item img {
-    margin-left: 140px;
+  .axolotls-carousel_carousel {
+    width: 100%;
   }
 }

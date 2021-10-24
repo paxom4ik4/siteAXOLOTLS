@@ -85,3 +85,14 @@
     left: 36px;
   }
 }
+
+@media (max-width: 380px) {
+  .roadmap_item {
+    padding: 24px 24px 24px 72px;
+  }
+  .roadmap_item-stage {
+    left: 16px;
+    top: 16px;
+    padding: 8px;
+  }
+}

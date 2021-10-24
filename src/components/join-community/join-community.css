@@ -128,4 +128,7 @@
   .community_wrapper span:not(first-child) {
     max-width: 100%;
   }
+  .community {
+    padding: 0;
+  }
 }
