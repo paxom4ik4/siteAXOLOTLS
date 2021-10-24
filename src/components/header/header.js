@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faDiscord } from "@fortawesome/free-brands-svg-icons";
 
+import { Link as RouterLink } from "react-router-dom";
+
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import './header.css'
@@ -39,7 +41,7 @@ export const Header = () => {
           <span>{'Winged Axolotls'}</span>
         </div>
         <div className={scrollY > 100 ? `${DEFAULT_CLASSNAME}-small_links` : `${DEFAULT_CLASSNAME}_links`}>
-          <div style={{color: '#fff'}}>{'Lore'}</div>
+          <RouterLink to="/lore" style={{color: '#fff'}}>{'Lore'}</RouterLink>
           <Link
             activeClass="active"
             to="roadmap"

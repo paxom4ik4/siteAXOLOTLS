@@ -1,5 +1,12 @@
 import React from "react";
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 import './App.css';
 
 import { Header } from "./components/header/header";
@@ -11,19 +18,29 @@ import { Roadmap } from "./components/roadmap/roadmap";
 import { Community } from "./components/join-community/join-community";
 import { Footer } from "./components/footer/footer";
 import { FAQ } from "./components/faq/faq";
+import { Lore } from "./components/Lore";
 
 export const App = () => {
   return (
     <div className={'app'}>
+      <Router>
       <Header />
-      <Collage />
-      <AxolotlsIntro />
-      <AxolotlsAmount />
-      <AxolotlsCarousel />
-      <Roadmap />
-      <Community />
-      <FAQ />
+        <Switch>
+          <Route path={'/'} exact>
+            <Collage />
+            <AxolotlsIntro />
+            <AxolotlsAmount />
+            <AxolotlsCarousel />
+            <Roadmap />
+            <Community />
+            <FAQ />
+          </Route>
+          <Route path={'/lore'} exact>
+            <Lore />
+          </Route>
+        </Switch>
       <Footer />
+      </Router>
     </div>
   )
 }

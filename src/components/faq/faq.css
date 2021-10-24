@@ -2,17 +2,20 @@
   background-color: #e2e2e2;
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 .faq_wrapper {
-  padding: 16px 0;
+  padding: 16px 48px;
   display: flex;
   flex-direction: column;
   width: 1200px;
+  background-color: #020336;
+  color: #ffffff;
+  border-radius: 3px;
 }
 
 .faq_title {
-  align-self: flex-end;
   font-size: 28px;
   font-weight: 400;
 }
@@ -40,5 +43,12 @@
 @media (max-width: 900px) {
   .faq_content {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq {
+    box-sizing: border-box;
+    padding: 20px;
   }
 }

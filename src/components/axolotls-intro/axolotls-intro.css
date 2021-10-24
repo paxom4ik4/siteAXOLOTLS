@@ -25,6 +25,7 @@
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
+  color: #020336;
 }
 
 .axolotls-intro_axolotls-item_view-btn {

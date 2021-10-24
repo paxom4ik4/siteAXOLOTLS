@@ -1,0 +1,29 @@
+.lore {
+  display: flex;
+  justify-content: center;
+  padding: 80px 0 40px;
+}
+
+.lore_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 0;
+  font-size: 18px;
+}
+
+.lore_wrapper {
+  display: flex;
+  text-align: justify;
+  width: 1200px;
+  font-size: 24px;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .lore_wrapper {
+    width: 100%;
+    padding: 0 16px;
+  }
+}

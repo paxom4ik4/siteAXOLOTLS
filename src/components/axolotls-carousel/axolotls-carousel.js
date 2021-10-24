@@ -4,11 +4,11 @@ import './axolotls-carousel.css';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import axolotl1 from '../../assets/axolotl1.jpg';
-import axolotl2 from '../../assets/axolotl3.jpg';
-import axolotl3 from '../../assets/axolotl2.jpg';
-import axolotl4 from '../../assets/axolotl5.jpg';
-import axolotl5 from '../../assets/axolotl6.jpg';
+import axolotl1 from '../../assets/axo-but.jpg';
+import axolotl2 from '../../assets/arch.jpg';
+import axolotl3 from '../../assets/dragonfly.jpg';
+import axolotl4 from '../../assets/drakonid.jpg';
+import axolotl5 from '../../assets/axolotl1.jpg';
 
 const DEFAULT_CLASSNAME = 'axolotls-carousel';
 
@@ -22,10 +22,10 @@ export const AxolotlsCarousel = () => {
         </div>
         <Carousel autoPlay={true} infiniteLoop={true} autoPlaySpeed={2000} className={`${DEFAULT_CLASSNAME}_carousel`} showIndicators={false} showThumbs={false} showStatus={false}>
           <div className={`${DEFAULT_CLASSNAME}_content-item`}>
-            <img src={axolotl1} alt={'axolotl'} />
+            <img src={axolotl2} alt={'axolotl'} />
           </div>
           <div className={`${DEFAULT_CLASSNAME}_content-item`}>
-            <img src={axolotl2} alt={'axolotl'} />
+            <img src={axolotl1} alt={'axolotl'} />
           </div>
           <div className={`${DEFAULT_CLASSNAME}_content-item`}>
             <img src={axolotl3} alt={'axolotl'} />
