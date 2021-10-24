@@ -30,7 +30,7 @@ export const App = () => {
             <Collage />
             <AxolotlsIntro />
             <AxolotlsAmount />
-            <AxolotlsCarousel />
+            {/*<AxolotlsCarousel />*/}
             <Roadmap />
             <Community />
             <FAQ />

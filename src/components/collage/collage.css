@@ -2,13 +2,17 @@
   padding-top: 80px;
   width: 100%;
   position: relative;
+  height: fit-content;
 }
 
 .collage_wrapper {
   width: 100%;
+  height: 750px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  background-size: 100% 100%;
+  background-image: url("../../assets/collage.png");
 }
 
 .collage_wrapper div {
@@ -79,14 +83,45 @@
   opacity: 0.85;
 }
 
+@media (max-width: 1450px) {
+  .collage_wrapper {
+    height: 730px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .collage_wrapper {
+    height: 520px;
+  }
+}
+
+
 @media (max-width: 768px) {
+  .collage_wrapper {
+    height: 400px;
+  }
   .collage_filter div {
     font-size: 36px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
+  .collage_wrapper {
+    height: 220px;
+  }
   .collage_filter div {
     font-size: 28px;
+  }
+}
+
+@media (max-width: 375px) {
+  .collage_wrapper {
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .collage_wrapper {
+    height: 160px;
   }
 }

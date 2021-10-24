@@ -71,4 +71,19 @@
     width: 100%;
     padding-top: 24px;
   }
+  .axolotls-amount_gif img {
+    height: 340px;
+  }
+}
+
+@media (max-width: 375px) {
+  .axolotls-amount_gif img {
+    height: 290px;
+  }
+}
+
+@media (max-width: 320px) {
+  .axolotls-amount_gif img {
+    height: 260px;
+  }
 }
