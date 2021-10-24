@@ -42,6 +42,7 @@ export const Header = () => {
         </div>
         <div className={scrollY > 100 ? `${DEFAULT_CLASSNAME}-small_links` : `${DEFAULT_CLASSNAME}_links`}>
           <RouterLink to="/lore" style={{color: '#fff'}}>{'Lore'}</RouterLink>
+          <div className={'separator'} />
           <Link
             activeClass="active"
             to="roadmap"
@@ -50,6 +51,7 @@ export const Header = () => {
             offset={-30}
             duration={500}
             style={{color: '#fff'}}>{'Roadmap'}</Link>
+          <div className={'separator'} />
           <Link
             activeClass="active"
             to="faq"

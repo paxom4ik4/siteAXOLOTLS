@@ -7,12 +7,8 @@
 
 .collage_wrapper {
   width: 100%;
-  height: 750px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  background-size: 100% 100%;
-  background-image: url("../../assets/collage.png");
 }
 
 .collage_wrapper div {
@@ -22,7 +18,7 @@
 }
 
 .collage_wrapper img {
-  width: 100%
+  width: 50%
 }
 
 .collage_filter {
@@ -116,12 +112,24 @@
 
 @media (max-width: 375px) {
   .collage_wrapper {
-    height: 200px;
+    height: 320px;
+  }
+  .collage_wrapper img {
+    width: 100%;
+  }
+  .collage_collage2 {
+    display: none;
   }
 }
 
-@media (max-width: 320px) {
-  .collage_wrapper {
-    height: 160px;
-  }
-}
+/*@media (max-width: 375px) {*/
+/*  .collage_wrapper {*/
+/*    height: 200px;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 320px) {*/
+/*  .collage_wrapper {*/
+/*    height: 160px;*/
+/*  }*/
+/*}*/

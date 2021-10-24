@@ -134,6 +134,13 @@
   opacity: 0.8;
 }
 
+.separator {
+  margin-top: 4px;
+  display: flex;
+  height: 20px;
+  border-left: 1px solid #ffffff;
+}
+
 @media (max-width: 768px) {
   .header_logo {
     width: auto;
